@@ -1,6 +1,12 @@
 .container {
-    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .main {
     min-height: 100vh;
@@ -12,13 +18,15 @@
     align-items: center;
 }
 
+
 .logs {
-    color: #A3E5BA;
+    color: #CDCDCD;
     font-weight: bold;
     margin-top: 0;
     line-height: 1.5;
     font-size: 1.2rem;
     height: 70px;
+    padding: 2rem 0;
 }
 
 .button {
@@ -43,8 +51,17 @@
     margin: 0;
     line-height: 1.15;
     font-size: 4rem;
+    padding: 1rem 12rem;
+    
+    
 }
 
+.boxListener{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 12rem;
+}
 .title,
 .description {
     text-align: center;
